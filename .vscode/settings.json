@@ -1,0 +1,7 @@
+{
+  "files.exclude": {
+    "workers/*/dist": true,
+    "**/node_modules": true
+  },
+  "typescript.preferences.quoteStyle": "single"
+}

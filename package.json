@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "deploy:development": "lerna run --parallel deploy:development",
+    "deploy:production": "lerna run --parallel deploy:production"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

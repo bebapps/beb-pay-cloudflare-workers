@@ -1,0 +1,12 @@
+name = "beb-pay-app"
+type = "javascript"
+account_id = "b101faaaf8843f206754bbb5bbeb2232"
+
+[env.development]
+route = "beb-pay.bebapps.dev/*"
+zone_id = "ebabedaf8bb45940a9a5de464056845f"
+#vars = { FRONTEND_BRANCH = "dev" }
+
+[build]
+command = "npm run build"
+upload_format = "modules"

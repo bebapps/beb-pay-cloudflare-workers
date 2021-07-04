@@ -1,0 +1,6 @@
+{
+  "packages": [
+    "workers/*"
+  ],
+  "version": "0.0.0"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "module": "dist/index.mjs",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --format=esm --outfile=dist/index.mjs",
+    "deploy:development": "wrangler publish --env=development",
+    "deploy:production": "wrangler publish --env=production"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^2.2.1",
+    "esbuild": "^0.11.4"
+  }
+}
