@@ -16,6 +16,7 @@ export default {
     const prefixes = {
       '/sample-product-images': ['sample-product-images', 'bebdevpayresaue01.blob.core.windows.net'],
       '/product-images': ['product-images', 'bebdevpayresaue01.blob.core.windows.net'],
+      '/store-logos': ['store-logos', 'bebdevpayresaue01.blob.core.windows.net'],
 
       '/api/stores': ['stores', 'beb-dev-pay-sto-aue-01.azurewebsites.net'],
       '/api/users': ['users', 'beb-dev-pay-usr-aue-01.azurewebsites.net'],
