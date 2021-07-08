@@ -46,6 +46,7 @@ export default {
     const endTime = Date.now();
     const duration = endTime - startTime;
 
+    response.headers.set('access-control-allow-origin', request.headers.get('origin') ?? 'null');
     response.headers.append('server-timing', `cf-worker;dur=${duration}`);
     response.headers.set('bebapps', `beb-pay/${origin}`);
 
